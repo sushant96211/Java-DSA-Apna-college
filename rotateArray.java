@@ -31,6 +31,7 @@ public class rotateArray {
         System.out.println("}");
         System.out.print("Enter your step k:");
         int a = sc.nextInt();
+        a = a % n;
         rev(marks, 0, n - a - 1);
         rev(marks, n - a, n - 1);
         rev(marks, 0, n - 1);
