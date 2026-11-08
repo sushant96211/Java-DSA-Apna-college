@@ -27,10 +27,10 @@ public class scoreflipMatrix {
             }
             if (one < zero) {
                 for (int k2 = 0; k2 < arr.length; k2++) {
-                    if (arr[j][k2] == 0) {
-                        arr[j][k2] = 1;
+                    if (arr[k2][j] == 0) {
+                        arr[k2][j] = 1;
                     } else {
-                        arr[j][k2] = 0;
+                        arr[k2][j] = 0;
                     }
                 }
             }
