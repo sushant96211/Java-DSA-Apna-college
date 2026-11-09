@@ -40,7 +40,7 @@ public class setMatrix {
         int n = sc.nextInt();
         System.out.print("Enter the size of column:");
         int m = sc.nextInt();
-        int arr[][] = new int[m][n];
+        int arr[][] = new int[n][m];
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length; j++) {
                 arr[i][j] = sc.nextInt();
