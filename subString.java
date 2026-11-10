@@ -18,5 +18,4 @@ public class subString {
         System.out.print("sunstring :");
         pr(str);
     }
-
 }
