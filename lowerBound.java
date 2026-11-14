@@ -17,7 +17,7 @@ public class lowerBound {
                 lo = mid + 1;
             }
         }
-        System.out.println("index of lower of" + target + ":" + lb);
+        System.out.println("index of lower of " + target + ":" + lb);
     }
 
     public static void main(String[] args) {
